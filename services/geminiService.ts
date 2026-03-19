@@ -2,7 +2,7 @@ import { GoogleGenAI, Type, Schema } from "@google/genai";
 import { GameState, SceneData } from "../types";
 
 // Initialize Gemini Client
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ "AIzaSyAKZG2968cpUIFR9bOOjqr9YCfuD87rgcE" });
 
 const SYSTEM_INSTRUCTION = `
 You are the game engine for a Thai romantic visual novel (จีบสาว) called "Love in Bangkok".
